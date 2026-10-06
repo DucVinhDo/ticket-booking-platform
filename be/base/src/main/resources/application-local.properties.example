@@ -1,0 +1,7 @@
+# Copy file này thành application-local.properties rồi điền giá trị thật
+DB_URL=jdbc:postgresql://localhost:5432/ticket_booking
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true

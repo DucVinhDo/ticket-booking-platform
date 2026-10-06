@@ -31,3 +31,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ===== Secrets: KHÔNG BAO GIỜ commit =====
+**/application-local.properties
+.env
+.env.*
+!.env.example
+
+# ===== Build output =====
+**/target/
+**/build/
+**/dist/
+**/node_modules/
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+# ===== OS / log =====
+.DS_Store
+Thumbs.db
+*.log
