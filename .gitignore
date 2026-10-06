@@ -1,0 +1,54 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# ===== Secrets: KHÔNG BAO GIỜ commit =====
+**/application-local.properties
+.env
+.env.*
+!.env.example
+
+# ===== Build output =====
+**/target/
+**/build/
+**/dist/
+**/node_modules/
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+# ===== OS / log =====
+.DS_Store
+Thumbs.db
+*.log
